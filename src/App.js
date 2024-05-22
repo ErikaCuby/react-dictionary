@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <h1>Dictionary app in progress...</h1>
-        <Dictionary />
+        <Dictionary defaultWord="kindness"/>
       </header>
     </div>
   );
