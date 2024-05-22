@@ -10,8 +10,8 @@ console.log(props.meaning);
         {props.meaning.definition}
         <br />
         <em>{props.meaning.example}</em>
-        <Synonyms synonyms={props.meaning.synonyms} />
       </p>
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }
