@@ -6,8 +6,22 @@
 }
 
 .Results .phonetic {
-    color: #371f9bb9;
+    color: #F7138F;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px 0;
+}
+
+
+@media (max-width: 800px) {
+    .Results .word {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.Results .phonetic {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
 }

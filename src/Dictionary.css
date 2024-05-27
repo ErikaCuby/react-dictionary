@@ -1,26 +1,63 @@
+.Dictionary h5 {
+  text-align: center;
+  color: hsl(327, 93%, 52%);
+  font-size: 70px;
+  font-weight: 400;
+  margin: 40px 0 0px 0;
+  letter-spacing: 6px;
+  font-family: Shadows Into Light;
+}
+
 .Dictionary section {
-    background-color: white;
-    margin: 20px;
-    padding: 20px 30px;
-    border-radius: 6px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 20px;
+  padding: 20px 60px;
+  border-radius: 6px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Dictionary h1 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .Dictionary input {
-    width: 100%;
-    border-radius: 6px;
-    padding: 6px 10px;
-    color: #333333bb;
-    border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 6px;
+  padding: 15px 10px;
+  color: #333333bb;
+  border: 1px solid #ddd;
 }
 
 .Dictionary .hint {
-    font-size: 14px;
-    opacity: 0.7;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+@media (max-width: 800px) {
+  .Dictionary h5 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .Dictionary section {
+    margin: 10px;
+    padding: 15px 40px;
+  }
+
+  .Dictionary h1 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.Dictionary input {
+  padding: 10px 10px;
+}
+
+.Dictionary .hint {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 }

@@ -1,9 +1,14 @@
 body {
-    background-color: #637a951f;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #637a951f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App {
-    margin: 40px 10px;
+  margin: 40px 70px;
 }
 
+@media (max-width: 800px) {
+    .App {
+  margin: 40px 5px;
+    }
+}
