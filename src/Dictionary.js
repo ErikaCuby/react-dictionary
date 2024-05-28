@@ -15,10 +15,16 @@ export default function Dictionary(props) {
   }
 
   function handleResponse(response) {
-    setResults(response.data);
-    let apiKey = "b5913f071fao57fb23b245a065fb8tac";
-    let apiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`;
-    axios.get(apiUrl).then(handleImageResponse);
+    if (response.data.status === "not_found") {
+      alert(
+        `Unfortunately we have no definition for "${keyword}" in our dictionary.`
+      );
+    } else {
+      setResults(response.data);
+      let apiKey = "b5913f071fao57fb23b245a065fb8tac";
+      let apiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`;
+      axios.get(apiUrl).then(handleImageResponse);
+    }
   }
 
   function search() {
