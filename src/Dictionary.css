@@ -47,6 +47,11 @@
     font-weight: bold;
 }
 
+.Dictionary a:hover {
+    color: black;
+    transition: ease-in-out 350ms;
+}
+
 @media (max-width: 800px) {
   .Dictionary h5 {
     font-size: 40px;
@@ -73,7 +78,7 @@
 }
 
 .Dictionary footer {
-    font-size: 9px;
+    font-size: 10px;
 }
 
 }
