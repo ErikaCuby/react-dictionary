@@ -69,9 +69,10 @@ export default function Dictionary(props) {
         <footer>
           Coded by{" "}
           <a
-            href="https://github.com/ErikaCuby"
+            href="https://www.erikakubickova.com/"
             target="_blank"
             rel="noopener noreferrer"
+            title="Erika Kubíčková | Portfolio"
           >
             Erika Cuby
           </a>{" "}
@@ -80,6 +81,7 @@ export default function Dictionary(props) {
             href="https://github.com/ErikaCuby/react-dictionary"
             target="_blank"
             rel="noopener noreferrer"
+            title="Erika Kubíčková | GitHub"
           >
             GitHub
           </a>
